@@ -1,0 +1,7 @@
+th:
+  application: "บลอกซ่า"
+  api:
+    errors:
+      unauthorize: "ไม่อนุญาตตตตตตต"
+      username_or_password_is_wrong: "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง"
+      something_went_wrong: "เกิดข้อผิดพลาด !!!"

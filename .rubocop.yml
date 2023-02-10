@@ -1,0 +1,26 @@
+require: 
+  - standard
+
+inherit_gem:
+  standard: config/base.yml
+
+AllCops:
+  NewCops: enable
+  UseCache: true
+  DisabledByDefault: true
+  SuggestExtensions: false
+  Exclude:
+    - '**/tmp/**/*'
+    - '**/templates/**/*'
+    - '**/vendor/**/*'
+    - '**/node_modules/**/*'
+    - '*.rb'
+    - 'app/helpers/application_helper.rb'
+    - 'config/routes.rb'
+    - 'config/routes/**.rb'
+    - 'db/migrate/**/*'
+    - '**/db/**'
+    - 'bin/**'
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: space

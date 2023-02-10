@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+post_one:
+  id: 8f5c21aa-2258-41c7-a73c-e949b571c34c
+  user_id: 5338d786-6adf-470d-a40f-b0f7adbecfdc
+  title: Ruby 101
+  body: ถ้าจะเริ่มเขียน Ruby แบบ 101 ควรจะอ่านหนังสือ หรือหาคอร์สออนไลน์ที่ไหนดี
+
+post_two:
+  id: c118a706-1d4f-41fd-8fce-c26b3de75fef
+  user_id: 5338d786-6adf-470d-a40f-b0f7adbecfdc
+  title: RoR Crash Course
+  body: คอร์ส Ruby on Rails สุดปัง หรือสุดพังกันนะ มาดูกันเถอะ
