@@ -1,24 +1,43 @@
-# README
+# Blogz
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+- Ruby: [rbenv](https://github.com/rbenv/rbenv)
+- IDE: VS Code + [Extensions](https://dev.to/thomasvanholder/10-vs-code-extensions-for-ruby-on-rails-developers-89a)
 
-* Ruby version
+## Code Style
 
-* System dependencies
+- [Rubocop](https://rubocop.org/) + [Standard](https://github.com/testdouble/standard)
+- Look the config 👉 [.rubocop.yml](.rubocop.yml)
+- Add rake task for rails [rubocop.rake](lib/tasks/rubocop.rake)
 
-* Configuration
+  - Check code style
 
-* Database creation
+    ```bash
+    $ bin/rails rubocop
+    ```
 
-* Database initialization
+  - Correct the offenses
 
-* How to run the test suite
+    ```
+    $ bin/rails rubocop -- -a
+    # or
+    $ bin/rails rubocop -- -A
+    ```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Documents
 
-* Deployment instructions
+- [Rails APIs](https://api.rubyonrails.org/)
+- [devdocs](https://devdocs.io/)
 
-* ...
+## MVC
+
+
+## Routes
+- CRUD based design
+
+## Log Collector
+- [Vector](https://vector.dev) & [Axiom](http://axiom.co)
+
+## Error Tracing
+- [Sentry](https://sentry.io)
